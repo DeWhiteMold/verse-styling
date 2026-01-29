@@ -2,7 +2,7 @@
   "cleanUrls": false,
   "headers": [
     {
-      "source": "/planx-verse-iframe.css",
+      "source": "*",
       "headers": [
         { "key": "Access-Control-Allow-Origin", "value": "*" }
       ]
