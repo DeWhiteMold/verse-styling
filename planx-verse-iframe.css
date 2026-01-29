@@ -37,3 +37,15 @@ body {
 [class*="SwiperBasedSlider_swiperSlide"] {
   height: 500px !important;
 }
+
+[class*="page_root"] {
+  border-radius: 16px !important;
+}
+
+[class*="MuiButton-colorPrimary"] {
+  background-color: #d5fa82 !important;
+}
+
+[class*="page_left"] {
+  background-color: #f4f4f4 !important;
+}
