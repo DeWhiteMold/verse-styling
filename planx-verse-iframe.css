@@ -26,28 +26,6 @@ button {
     border-radius: 16px !important;
 }
 
-/* [class*="ArtworkCover_root"] {
-    --wide-cover-max-height-desktop: 0px !important;
-}
-
-[class*="CollSinglePMSection_assetCoverRoot"] {
-    --forced-max-width: 200px !important;
-}
-
-[class*="CollSinglePMSection_baseframe"] {
-    min-height: 100px !important;
-}
-
-[class*="CollSinglePMSection_stickyContainer"] {
-    height: unset !important;
-    max-height: unset !important;
-    overflow: unset !important;
-}
-
-[class*="CollSMSection_baseframe"] {
-    display: none !important;
-} */
-
 [class*="FooterContainer_footerWrapper"] {
   display: none !important;
 }
@@ -109,5 +87,10 @@ button {
   border-radius: 16px !important;
 }
 
+[class*="PinnedHeader_root"] {
+  background-color: #f4f4f4 !important;
+}
 
-
+[class*="TabArtworkThumbnail_imageWrapper"] {
+  background-color: #f4f4f4 !important;
+}
