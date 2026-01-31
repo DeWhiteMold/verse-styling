@@ -22,6 +22,10 @@ table {
   display: none !important;
 }
 
+button {
+    border-radius: 16px !important;
+}
+
 /* [class*="ArtworkCover_root"] {
     --wide-cover-max-height-desktop: 0px !important;
 }
@@ -84,7 +88,7 @@ table {
 }
 
 [class*="AuthContainer_body"] {
-  border: #000000 2px solid !important;
+  border: #000000 1px solid !important;
   border-radius: 16px !important;
   background-color: #f4f4f4 !important;
   box-shadow: none !important;
@@ -92,7 +96,7 @@ table {
 
 [class*="Input_input"] {
   border-radius: 8px !important;
-  border: #000000 2px solid !important;
+  border: #000000 1px solid !important;
   background-color: #f4f4f4 !important;
   box-shadow: none !important;
 }
