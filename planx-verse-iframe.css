@@ -86,11 +86,13 @@ table {
 [class*="AuthContainer_body"] {
   border: #000000 2px solid !important;
   border-radius: 16px !important;
+  background-color: #f4f4f4 !important;
 }
 
-[class*="input_input"] {
+[class*="Input_input"] {
   border-radius: 8px !important;
   border: #000000 2px solid !important;
+  background-color: #f4f4f4 !important;
 }
 
 
