@@ -26,6 +26,10 @@ button {
     border-radius: 16px !important;
 }
 
+a {
+    background-color: #d5fa82 !important;
+}
+
 /* [class*="ArtworkCover_root"] {
     --wide-cover-max-height-desktop: 0px !important;
 }
@@ -99,6 +103,14 @@ button {
   border: #000000 1px solid !important;
   background-color: #f4f4f4 !important;
   box-shadow: none !important;
+}
+
+[class*="MuiPaper-elevation"] {
+  background-color: #f4f4f4 !important;
+}
+
+[class*="MuiTableRow-root"] {
+  border-radius: 16px !important;
 }
 
 
