@@ -1,6 +1,6 @@
 body {
   min-height: unset !important;
-  color: red;
+  border-radius: 16px !important;
 }
 
 .verse-header,
@@ -40,14 +40,21 @@ body {
 
 [class*="page_root"] {
   border-radius: 16px !important;
-}
-
-[class*="MuiButton-colorPrimary"] {
-  background-color: #d5fa82 !important;
+  background-color: #f4f4f4 !important;
 }
 
 [class*="page_left"] {
   background-color: #f4f4f4 !important;
+}
+
+[class*="page_right"] {
+  background-color: #f4f4f4 !important;
+}
+
+[class*="MuiButton-outlinedPrimary"] {
+  background-color: #d5fa82 !important;
+  color: #000000 !important;
+  border: none !important;
 }
 
 
