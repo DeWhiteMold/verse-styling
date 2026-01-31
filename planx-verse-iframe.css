@@ -26,10 +26,6 @@ button {
     border-radius: 16px !important;
 }
 
-a {
-    background-color: #d5fa82 !important;
-}
-
 /* [class*="ArtworkCover_root"] {
     --wide-cover-max-height-desktop: 0px !important;
 }
