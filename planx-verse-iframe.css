@@ -1,6 +1,20 @@
+@font-face {
+  font-family: 'Lay Grotesk';
+  font-display: swap;
+  src: url("https://static.wixstatic.com/ufonts/39f2ad_7f299b6cfff54d019b268df9f622d9b8/woff2/file.woff2") format("woff2"),
+       url("https://static.wixstatic.com/ufonts/39f2ad_7f299b6cfff54d019b268df9f622d9b8/woff/file.woff") format("woff"),
+       url("https://static.wixstatic.com/ufonts/39f2ad_7f299b6cfff54d019b268df9f622d9b8/ttf/file.ttf") format("truetype");
+}
+
 body {
   min-height: unset !important;
   border-radius: 16px !important;
+  background-color: #f4f4f4 !important;
+  font-family: 'Lay Grotesk', sans-serif !important;
+}
+
+table {
+  background-color: #f4f4f4 !important;
 }
 
 .verse-header,
@@ -48,6 +62,10 @@ body {
 }
 
 [class*="page_right"] {
+  background-color: #f4f4f4 !important;
+}
+
+[class*="page_header"] {
   background-color: #f4f4f4 !important;
 }
 
