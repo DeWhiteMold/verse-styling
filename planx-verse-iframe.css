@@ -94,3 +94,7 @@ button {
 [class*="TabArtworkThumbnail_imageWrapper"] {
   background-color: #f4f4f4 !important;
 }
+
+[class*="JournalSection_section"] {
+  display: none !important;
+}
