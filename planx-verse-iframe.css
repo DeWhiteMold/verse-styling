@@ -75,5 +75,23 @@ table {
   border: none !important;
 }
 
+[class*="layout_page"] {
+  background-color: #f4f4f4 !important;
+}
+
+[class*="AuthContainer_footer"] {
+  background-color: #f4f4f4 !important;
+}
+
+[class*="AuthContainer_body"] {
+  border: #000000 2px solid !important;
+  border-radius: 16px !important;
+}
+
+[class*="input_input"] {
+  border-radius: 8px !important;
+  border: #000000 2px solid !important;
+}
+
 
 
