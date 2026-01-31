@@ -98,3 +98,7 @@ button {
 [class*="JournalSection_section"] {
   display: none !important;
 }
+
+[class*="ArtworkListSection_section"] {
+  display: none !important;
+}
