@@ -131,6 +131,8 @@ button {
   font-size: 1.5rem !important;
 }
 
-[class*="MarkdownContent_markdownContent"] {
-  font-size: 1.1rem !important;
+@media screen and (min-width: 768px) {
+  [class*="MarkdownContent_markdownContent"] {
+    font-size: 1.1rem !important;
+  }
 }
