@@ -112,3 +112,13 @@ button {
 [class*="MuiCollapse-root"] {
  transition: none !important;
 }
+
+[class*="ArtworkCover_root"] {
+  width: 100% !important;
+}
+
+[class*="PurchaseAmountInput_formInput"] {
+  border: #060606 1px solid;
+  border-radius: 16px;
+  margin-right: 8px;
+}
