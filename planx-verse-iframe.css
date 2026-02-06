@@ -93,6 +93,7 @@ button {
 
 [class*="TabArtworkThumbnail_imageWrapper"] {
   background-color: #f4f4f4 !important;
+  padding: 0 !important;
 }
 
 [class*="JournalSection_section"] {
@@ -101,4 +102,9 @@ button {
 
 [class*="ArtworkListSection_section"] {
   display: none !important;
+}
+
+[class*="CollSMSection_baseframe"] {
+  flex-direction: column !important;
+  --sidebar-width: unset !important;
 }
