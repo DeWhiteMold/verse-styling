@@ -122,3 +122,15 @@ button {
   border-radius: 16px;
   margin-right: 8px;
 }
+
+[class*="CollDescSection_topicContainer"] {
+  display: none !important;
+}
+
+[class*="MuiTypography-h1"] {
+  font-size: 1.5rem !important;
+}
+
+[class*="MarkdownContent_markdownContent"] {
+  font-size: 1.1rem !important;
+}
