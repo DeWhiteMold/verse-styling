@@ -108,3 +108,7 @@ button {
   flex-direction: column !important;
   --sidebar-width: unset !important;
 }
+
+[class*="MuiCollapse-root"] {
+ transition: none !important;
+}
