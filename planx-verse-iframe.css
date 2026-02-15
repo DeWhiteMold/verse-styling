@@ -136,3 +136,7 @@ button {
     font-size: 1.1rem !important;
   }
 }
+
+[class*="CollSMSection_baseframeLeft"] {
+  display: none !important;
+}
