@@ -10,7 +10,7 @@ body {
   min-height: unset !important;
   border-radius: 16px !important;
   background-color: #ffffff !important;
-  font-family: 'Lay Grotesk', sans-serif !important;
+  /* font-family: 'Lay Grotesk', sans-serif !important; */
 }
 
 table {
