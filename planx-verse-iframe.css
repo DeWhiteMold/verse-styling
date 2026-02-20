@@ -1,16 +1,43 @@
 @font-face {
   font-family: 'Lay Grotesk';
   font-display: swap;
-  src: url("https://static.wixstatic.com/ufonts/39f2ad_7f299b6cfff54d019b268df9f622d9b8/woff2/file.woff2") format("woff2"),
-       url("https://static.wixstatic.com/ufonts/39f2ad_7f299b6cfff54d019b268df9f622d9b8/woff/file.woff") format("woff"),
-       url("https://static.wixstatic.com/ufonts/39f2ad_7f299b6cfff54d019b268df9f622d9b8/ttf/file.ttf") format("truetype");
+  font-weight: 400;
+  src: url("./fonts/LayGrotesk/laygrotesk-trial-regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Lay Grotesk';
+  font-display: swap;
+  font-weight: 500;
+  src: url("./fonts/LayGrotesk/laygrotesk-trial-medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Lay Grotesk';
+  font-display: swap;
+  font-weight: 600;
+  src: url("./fonts/LayGrotesk/laygrotesk-trial-semibold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Lay Grotesk';
+  font-display: swap;
+  font-weight: 700;
+  src: url("./fonts/LayGrotesk/laygrotesk-trial-bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Lay Grotesk';
+  font-display: swap;
+  font-weight: 900;
+  src: url("./fonts/LayGrotesk/laygrotesk-trial-black.otf") format("opentype");
 }
 
 body {
   min-height: unset !important;
   border-radius: 16px !important;
   background-color: #ffffff !important;
-  /* font-family: 'Lay Grotesk', sans-serif !important; */
+  font-family: 'Lay Grotesk', sans-serif !important;
 }
 
 table {
