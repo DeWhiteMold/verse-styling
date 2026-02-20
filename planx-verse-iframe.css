@@ -33,11 +33,14 @@
   src: url("./fonts/LayGrotesk/laygrotesk-trial-black.otf") format("opentype");
 }
 
+* {
+  font-family: 'Lay Grotesk', sans-serif !important;
+}
+
 body {
   min-height: unset !important;
   border-radius: 16px !important;
   background-color: #ffffff !important;
-  font-family: 'Lay Grotesk', sans-serif !important;
 }
 
 table {
